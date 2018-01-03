@@ -66,6 +66,7 @@ main {
   z-index: 3;
   cursor: pointer;
   transition: 0.3s;
+  outline: none;
 }
 
 .nav:hover { background: #666 }

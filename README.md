@@ -13,3 +13,6 @@ Container gets class "sublime-carousel". Each item to display gets class "carous
   <div class="carousel-item">Item 2</div>
 </div>
 ```
+
+## Demo
+https://cdn.rawgit.com/CreaturesInUnitards/Sublime-Carousel/64dfc385/demo.html

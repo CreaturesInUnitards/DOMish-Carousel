@@ -15,4 +15,4 @@ Container gets class "sublime-carousel". Each item to display gets class "carous
 ```
 
 ## Demo
-https://cdn.rawgit.com/CreaturesInUnitards/Sublime-Carousel/64dfc385/demo.html
+https://rawgit.com/CreaturesInUnitards/Sublime-Carousel/master/demo.html

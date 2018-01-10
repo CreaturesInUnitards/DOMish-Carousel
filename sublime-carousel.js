@@ -17,7 +17,7 @@
 			// build the carousel
 		;['stage', 'sled', 'blips'].forEach(function(divName, idx){
 			var div = document.createElement('div')
-			div.classList = divName
+			div.setAttribute("class", divName)
 			carousel.appendChild(div)
 			ui_elements[divName] = div
 		})

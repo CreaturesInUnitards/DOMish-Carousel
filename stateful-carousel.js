@@ -1,5 +1,5 @@
 (function (){
-	var allCarousels = document.querySelectorAll('.sublime-carousel')
+	var allCarousels = document.querySelectorAll('.stateful-carousel')
 	allCarousels.forEach(Carousel)
 
 	function Carousel(carousel){

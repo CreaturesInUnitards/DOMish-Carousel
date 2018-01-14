@@ -4,6 +4,7 @@
 
 	function Carousel(carousel){
 		var SLIDE_SPEED_IN_MILLIS = carousel.getAttribute('data-speed') || 500
+		var TRANSITION_SPEED = SLIDE_SPEED_IN_MILLIS + 'ms ease-out'
 
 		// set state vars
 		var currentItem = 0
@@ -116,9 +117,8 @@
 
 			// wait a tick, then set transition speed on stage & sled
 			setTimeout(function(){
-				var transitionSpeed = SLIDE_SPEED_IN_MILLIS + 'ms ease-out'
-				ui_elements.sled.style.transition = transitionSpeed
-				ui_elements.stage.style.transition = transitionSpeed
+				ui_elements.sled.style.transition = TRANSITION_SPEED
+				ui_elements.stage.style.transition = TRANSITION_SPEED
 
 				// wait another tick, then set destination values for stage and sled
 				requestAnimationFrame(function(){

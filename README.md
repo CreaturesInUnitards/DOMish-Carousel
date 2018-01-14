@@ -1,4 +1,4 @@
-# Sublime-Carousel
+# Stateful-Carousel
 
 ## Features
 Supports multiple carousels per page. If there's only 1 on the page, r/l arrow keys will emulate prev/next.

@@ -11,7 +11,7 @@ main {
   height: 100%;
 }
 
-.sublime-carousel {
+.stateful-carousel {
   position: relative;
   width: 80%;
   top: 20%;

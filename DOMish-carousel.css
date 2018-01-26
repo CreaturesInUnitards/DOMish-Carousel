@@ -11,7 +11,7 @@ main {
   height: 100%;
 }
 
-.stateful-carousel {
+.DOMish-carousel {
   position: relative;
   width: 80%;
   top: 20%;

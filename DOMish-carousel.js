@@ -1,5 +1,5 @@
 (function (){
-	var allCarousels = document.querySelectorAll('.stateful-carousel')
+	var allCarousels = document.querySelectorAll('.DOMish-carousel')
 	allCarousels.forEach(Carousel)
 
 	function Carousel(carousel){
@@ -12,7 +12,6 @@
 		var ui_elements = {}
 
 		// scrape the DOM
-		// var carousel = document.querySelector('.carousel')
 		var allItems = carousel.querySelectorAll('.carousel-item')
 
 			// build the carousel
